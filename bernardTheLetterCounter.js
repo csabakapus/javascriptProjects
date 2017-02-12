@@ -12,17 +12,12 @@ function bernardTheLetterCounter() {
 		}
 	}
 
-	if (counter == 0) {
+	if (counter === 0) {
 		alert('The character is missing!');
 	} else {
 	alert('The letter ' + letter + ' occurs ' + counter + ' times in this sentence.');
 	}	
  return;
-}
-
-
-bernardTheLetterCounter();
-   return;
 }
 
 
